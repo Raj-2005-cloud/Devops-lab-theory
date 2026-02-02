@@ -29,7 +29,7 @@ To install and configure Docker, pull Docker images from Docker Hub, run Docker 
 ---
 
 ### Step 2: Verify Pulled Nginx Image
-![Nginx Image](nginx-image.png)  
+![Nginx Image](docker-pull-nginx.png)  
 *Command: `docker images nginx` to verify image download*
 
 ---
@@ -57,13 +57,13 @@ To install and configure Docker, pull Docker images from Docker Hub, run Docker 
 ## 🛑 Part D: Container and Image Management
 
 ### Step 5: Stop Running Container
-![Docker Stop](docker-stop.png)  
+![Docker Stop](docker-stop-rm.png)  
 *Command: `docker stop <container_id>` to stop container*
 
 ---
 
 ### Step 6: Remove Docker Container
-![Docker Remove Container](docker-rm.png)  
+![Docker Remove Container](docker-stop-rm.png)  
 *Command: `docker rm <container_id>` to remove container*
 
 ---
