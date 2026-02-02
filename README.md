@@ -28,5 +28,4 @@ This repository contains **Lab Experiments** and **Theory Notes** for the course
 👉 [Open Theory Folder](./Theory)
 
 
-```md
 - [Experiment 3 – Title](./Lab/Experiment-3)
