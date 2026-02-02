@@ -20,7 +20,6 @@ To install and configure Docker, pull Docker images from Docker Hub, run Docker 
 
 ## 🐳 Part A: Working with Docker Images
 
----
 
 ### Step 1: Pull Nginx Image from Docker Hub
 ![Docker Pull Nginx](docker-pull-nginx.png)  
@@ -42,15 +41,10 @@ To install and configure Docker, pull Docker images from Docker Hub, run Docker 
 
 ---
 
-### Step 5: Verify Running Docker Container
+### Step 4: Verify Running Docker Container
 ![Docker PS](docker-ps.png)  
 *Command: `docker ps` to view running containers*
 
----
-
-### Step 4: Verify Nginx Service
-![Nginx Verification](nginx-browser.png)  
-*Accessing `http://localhost:8080` in browser to verify Nginx*
 
 ---
 
