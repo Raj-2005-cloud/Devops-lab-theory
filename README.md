@@ -26,6 +26,9 @@ This repository contains **Lab Experiments** and **Theory Notes** for the course
 
 - [Theory 1](./Theory/Theory-1)
 - [Theory 2](./Theory/Theory-2)
+- [Theory 3](./Theory/Theory-3)
+
+
 
 👉 [Open Theory Folder](./Theory)
 
