@@ -15,7 +15,7 @@ This repository contains **Lab Experiments** and **Theory Notes** for the course
 
 - [Experiment 1 – Comparison of VMs and Containers](./Lab/Experiment-1)
 - [Experiment 2 – Docker Installation, Configuration and Running Images](./Lab/Experiment-2)
-- [Experiment 3 – Docker Installation, Configuration and Running Images](./Lab/Experiment-3)
+- [Experiment 3 – NGINX Installation and Configuration Using Docker](./Lab/Experiment-3)
 
 
 
