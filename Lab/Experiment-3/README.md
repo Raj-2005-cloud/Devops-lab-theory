@@ -41,39 +41,19 @@ To install and configure the NGINX web server using Docker, build and run NGINX 
 
 ![Run Container](ubuntu_3.png)
 
-Step 10: Create Dockerfile (Alpine)
+### Step 10: Create Dockerfile (Alpine)
 
-FROM alpine:latest
-RUN apk add --no-cache nginx
-EXPOSE 80
-CMD ["nginx", "-g", "daemon off;"]
+![Run Container](alpine_1.png)
+### Step 11: Build Alpine Image
+![Run Container](alpine_1.png)
 
-Step 11: Build Alpine Image
 
-docker build -t nginx-alpine .
+### Step 12: Run Alpine-Based NGINX
+![Run Container](alpine_2.png)
 
-Step 12: Run Alpine-Based NGINX
+### Step 13: Compare NGINX Images
 
-docker run -d -p 8082:80 nginx-alpine
-
-Step 13: Compare NGINX Images
-
-docker images | grep nginx
-
-Step 14: Check Image History
-
-docker history nginx
-docker history nginx-ubuntu
-docker history nginx-alpine
-
-Step 15: Create Custom HTML
-
-mkdir html
-echo "<h1>Hello from Docker NGINX</h1>" > html/index.html
-
-Step 16: Run NGINX with Volume Mount
-
-docker run -d -p 8083:80 -v $(pwd)/html:/usr/share/nginx/html nginx
+![Run Container](Comparison.png)
 
 ### 🧪 Commands Used
 docker --version
