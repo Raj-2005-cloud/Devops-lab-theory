@@ -17,41 +17,29 @@ To install and configure the NGINX web server using Docker, build and run NGINX 
 ## 🐳 Part A: Working with Official NGINX Docker Image
 
 ### Step 1: Pull NGINX Image from Docker Hub
-![Docker Pull NGINX](exp3-docker-pull.png)
-### Step 2: Pull Official NGINX Image
+![Docker Pull NGINX](Docker_nginx_1.png)
+![Docker Pull NGINX](Docker_nginx_2.png)
+
+### Step 2: Run the container
+![Run Container](pull.png)
+### Step 3: Verify
+![Docker verify](pull.png)
+
+### Step 4:Verification from docker
+![GINX](nginx_2.png)
+
+## 🐳 Part B: Custom NGINX using Ubuntu Image
 
 
+### Step 1: Create Dockerfile (Ubuntu)
+![Docker file](Dockerfile.png)
 
-Step 3: Verify NGINX Image
+### Step 2: Build Ubuntu Image
+![Ubuntu](Ubuntu.png)
 
+### Step 9: Run Ubuntu-Based NGINX
 
-
-Step 4: Run NGINX Container
-
-docker run -d --name nginx-official -p 8080:80 nginx
-
-Step 5: Verify Running Container
-
-docker ps
-
-Step 6: Access NGINX Page
-
-curl http://localhost:8080
-
-Step 7: Create Dockerfile (Ubuntu)
-
-FROM ubuntu:22.04
-RUN apt-get update && apt-get install -y nginx
-EXPOSE 80
-CMD ["nginx", "-g", "daemon off;"]
-
-Step 8: Build Ubuntu Image
-
-docker build -t nginx-ubuntu .
-
-Step 9: Run Ubuntu-Based NGINX
-
-docker run -d -p 8081:80 nginx-ubuntu
+![Run Container](ubuntu_3.png)
 
 Step 10: Create Dockerfile (Alpine)
 
