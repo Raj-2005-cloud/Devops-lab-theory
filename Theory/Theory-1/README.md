@@ -63,10 +63,10 @@ docker push <your-dockerhub-username>/java-hello-app
 ### 🔹 Java Application Running in Container  
 ![Running](Screenshots/Screenshot 2026-02-06 124617.png)  
 ![Running](Screenshots/Screenshot 2026-02-06 125121.png)  
-![Running](Screenshots/Screenshot 2026-02-06 130443.png)
+![Running](Screenshots/Screenshot (907).png)
 
 ### 🔹 Docker Image Published on Docker Hub  
-![Docker Hub](Screenshots/Screenshot 2026-02-06 130518.png)
+![Docker Hub](Screenshot (907).png)
 
 ---
 
