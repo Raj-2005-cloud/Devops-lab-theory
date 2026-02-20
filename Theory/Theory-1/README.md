@@ -66,7 +66,7 @@ docker push <your-dockerhub-username>/java-hello-app
 ![Running](Screenshots/Screenshot (907).png)
 
 ### 🔹 Docker Image Published on Docker Hub  
-![Docker Hub](Screenshot (907).png)
+![Docker Hub](uploaddocker.png)
 
 ---
 
