@@ -60,8 +60,10 @@ docker push <your-dockerhub-username>/java-hello-app
 ### 🔹 Docker Image Build Process  
 ![Build Java App](build.png)
 
-### 🔹 Java Application Running in Container  
-![Running](javafile.png)  
+### 🔹 Java Application Running in Container&& Taking Docker Hub Access
+![Running](javafile.png) 
+![Acessing](dockerhub_1.png) 
+![Acessing](dockerhub_2.png) 
 
 ### 🔹 Docker Image Published on Docker Hub  
 ![Docker Hub](uploaddocker.png)
