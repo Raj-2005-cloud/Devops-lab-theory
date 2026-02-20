@@ -1,59 +1,82 @@
-# Dockerfile Creation, Image Automation, and Docker Hub Sharing (Java Application)
+# 🐳 Dockerizing a Java Application Using Ubuntu 22.04
 
-## Objective
-
-To create a Dockerfile for a Java application using Ubuntu 22.04, automate the creation of a Docker image using the Dockerfile, and share the image on Docker Hub.
-
----
-
-## Tools and Technologies
-
-- Docker
-- Ubuntu 22.04
-- OpenJDK 17
-- Java
-- Docker Hub
+## 🎯 Aim
+To containerize a Java application using Docker, build an image from a Dockerfile based on Ubuntu 22.04 with OpenJDK 17, and publish the image to Docker Hub for sharing and deployment.
 
 ---
 
-## Experiment Description
-
-This experiment demonstrates the use of Docker to containerize a Java application. A Dockerfile is created to define the application environment, install required dependencies, compile the Java source code, and execute the application inside a container. The Docker image is built automatically using the Dockerfile and then shared through Docker Hub for portability and reuse.
+## 🛠️ Tools & Technologies Used
+- Docker  
+- Ubuntu 22.04  
+- OpenJDK 17  
+- Java  
+- Docker Hub  
 
 ---
 
-## Dockerfile
+## 📘 Overview
+This experiment demonstrates how to containerize a simple Java application using Docker. The process includes creating a Dockerfile, installing dependencies, compiling the Java source file inside the container, building the Docker image, running the container, and finally publishing the image to Docker Hub. Containerization ensures portability, consistency, and simplified deployment across multiple environments.
 
+---
+
+## 📄 Dockerfile
 ```dockerfile
 FROM ubuntu:22.04
-
 RUN apt update && apt install -y openjdk-17-jdk
-
 WORKDIR /home/app
-
 COPY Hello.java .
-
 RUN javac Hello.java
-
 CMD ["java", "Hello"]
 ```
 
-## Docker Hub Image Sharing
+---
 
-After successful image creation, the Docker image is tagged and pushed to Docker Hub. Storing the image on Docker Hub allows it to be accessed, shared, and deployed across different systems using Docker, supporting collaborative development and DevOps workflows.
+## ⚙️ Implementation Steps
 
-## Workflow and Screenshots:
+### 1️⃣ Build the Docker Image
+```bash
+docker build -t java-hello-app .
+```
 
-- #### Docker Image Build Process
+### 2️⃣ Run the Docker Container
+```bash
+docker run java-hello-app
+```
 
-  ![Build Java App](Screenshots\Screenshot 2026-02-06 124122.png)
+### 3️⃣ Tag the Docker Image
+```bash
+docker tag java-hello-app <your-dockerhub-username>/java-hello-app
+```
 
-- #### Java Application Running in Container
+### 4️⃣ Push Image to Docker Hub
+```bash
+docker push <your-dockerhub-username>/java-hello-app
+```
 
-  ![Running](Screenshots/Screenshot 2026-02-06 124617.png)
-  ![Running](Screenshots/Screenshot 2026-02-06 125121.png)
-  ![Running](Screenshots/Screenshot 2026-02-06 130443.png)
+---
 
-- #### Docker Image Published on Docker Hub
+## 📸 Workflow Screenshots
 
-![Running](Screenshots/Screenshot 2026-02-06 130518.png)
+### 🔹 Docker Image Build Process  
+![Build Java App](Screenshots/Screenshot 2026-02-06 124122.png)
+
+### 🔹 Java Application Running in Container  
+![Running](Screenshots/Screenshot 2026-02-06 124617.png)  
+![Running](Screenshots/Screenshot 2026-02-06 125121.png)  
+![Running](Screenshots/Screenshot 2026-02-06 130443.png)
+
+### 🔹 Docker Image Published on Docker Hub  
+![Docker Hub](Screenshots/Screenshot 2026-02-06 130518.png)
+
+---
+
+## ✅ Outcome
+- Created a Dockerfile for a Java application  
+- Built the Docker image successfully  
+- Executed the Java application inside a container  
+- Published the Docker image to Docker Hub  
+
+---
+
+## 🏁 Conclusion
+Docker simplifies application deployment by packaging the application and its dependencies into a container. Publishing the image to Docker Hub enables portability, reuse, and collaborative development across systems.
