@@ -7,7 +7,7 @@
 ---
 
 ## 🔗 Repository URL
-[View GitHub Repository](https://github.com/Raj-2005-cloud/Devops-lab-theory)
+[https://github.com/Raj-2005-cloud/Devops-lab-theory](https://github.com/Raj-2005-cloud/Devops-lab-theory)
 
 ---
 ## 📁 Repository Structure
