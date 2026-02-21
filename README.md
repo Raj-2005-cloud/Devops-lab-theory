@@ -7,7 +7,7 @@
 ---
 
 ## 🔗 Repository URL
-👉 https://github.com/your-username/containerization-devops-lab  
+👉 https://github.com/Raj-2005-cloud/Devops-lab-theory.git  
 ---
 ## 📁 Repository Structure
 This repository contains **Lab Experiments** and **Theory Notes** for the course.
