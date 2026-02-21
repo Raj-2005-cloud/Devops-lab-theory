@@ -7,7 +7,8 @@
 ---
 
 ## 🔗 Repository URL
-👉 https://github.com/Raj-2005-cloud/Devops-lab-theory.git  
+[View GitHub Repository](https://github.com/Raj-2005-cloud/Devops-lab-theory)
+
 ---
 ## 📁 Repository Structure
 This repository contains **Lab Experiments** and **Theory Notes** for the course.
