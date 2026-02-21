@@ -6,6 +6,9 @@
 
 ---
 
+## 🔗 Repository URL
+👉 https://github.com/your-username/containerization-devops-lab  
+---
 ## 📁 Repository Structure
 This repository contains **Lab Experiments** and **Theory Notes** for the course.
 
