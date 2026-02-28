@@ -92,7 +92,9 @@ Dockerfile
 - Prevents unnecessary files from entering image  
 
 ---
-
+![Dockerfile Screenshot](dockerignore_1.png)
+![Dockerfile Screenshot](dockerignore-2.png)
+![Dockerfile Screenshot](dockerignore-3.png)
 ## 🏗️ Step 3: Build Docker Image
 
 Build the image using:
@@ -124,7 +126,10 @@ docker tag myapp:1.0 rajvardhan/myapp:1.0
 ```
 
 ---
-
+![Dockerfile Screenshot](build-1.png)
+![Dockerfile Screenshot](build-2.png)
+![Dockerfile Screenshot](build-3.png)
+![Dockerfile Screenshot](build-4.png)
 ## 🔐 Step 5: Login to Docker Hub
 
 ```bash
@@ -155,6 +160,10 @@ To download the image:
 
 ```bash
 docker pull username/myapp:1.0
+![Dockerfile Screenshot](docker_push-1.png)
+![Dockerfile Screenshot](docker_push-2.png)
+![Dockerfile Screenshot](docker_push-3.png)
+
 ```
 
 ---
