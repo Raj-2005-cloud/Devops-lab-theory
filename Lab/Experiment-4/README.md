@@ -145,9 +145,9 @@ Enter your Docker Hub username and password.
 ```bash
 docker push username/myapp:1.0
 ```
-![Dockerfile Screenshot](docker-push-1.png)
-![Dockerfile Screenshot](docker-push-2.png)
-![Dockerfile Screenshot](docker-push-3.png)
+![Dockerfile Screenshot](docker_push-1.png)
+![Dockerfile Screenshot](docker_push-2.png)
+![Dockerfile Screenshot](docker_push-3.png)
 
 
 Example:
