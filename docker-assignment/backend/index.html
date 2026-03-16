@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>User Manager</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg,#4facfe,#00f2fe);
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{
+    background:white;
+    padding:40px;
+    border-radius:15px;
+    width:400px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+h1{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+input{
+    width:100%;
+    padding:10px;
+    margin-bottom:10px;
+    border-radius:8px;
+    border:1px solid #ccc;
+}
+
+button{
+    width:100%;
+    padding:10px;
+    border:none;
+    border-radius:8px;
+    background:#4facfe;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#3a8de0;
+}
+
+table{
+    width:100%;
+    margin-top:20px;
+    border-collapse:collapse;
+}
+
+th,td{
+    padding:8px;
+    border-bottom:1px solid #ddd;
+    text-align:left;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>User Manager</h1>
+
+<input id="name" placeholder="Enter name">
+
+<button onclick="addUser()">Add User</button>
+
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Name</th>
+</tr>
+</thead>
+
+<tbody id="userTable">
+</tbody>
+
+</table>
+
+</div>
+
+<script>
+
+async function addUser(){
+
+let name = document.getElementById("name").value
+
+await fetch(`http://localhost:8000/user?name=${name}`,{
+method:"POST"
+})
+
+document.getElementById("name").value=""
+
+loadUsers()
+
+}
+
+async function loadUsers(){
+
+let res = await fetch("http://localhost:8000/users")
+let data = await res.json()
+
+let table = document.getElementById("userTable")
+table.innerHTML=""
+
+data.forEach(u=>{
+table.innerHTML += `<tr>
+<td>${u[0]}</td>
+<td>${u[1]}</td>
+</tr>`
+})
+
+}
+
+loadUsers()
+
+</script>
+
+</body>
+</html>
