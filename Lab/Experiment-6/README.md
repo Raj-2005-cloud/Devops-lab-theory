@@ -78,7 +78,7 @@ docker compose up -d
 
 ### Screenshot – Docker Compose Running
 
-![docker compose up](screenshots/docker-compose-up.png)
+![docker compose up](docker-compose-up.png)
 
 ---
 
