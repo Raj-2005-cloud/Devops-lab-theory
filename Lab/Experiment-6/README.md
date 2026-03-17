@@ -266,7 +266,7 @@ docker compose down -v
 
 ### Screenshot – Compose WordPress Containers
 
-![wordpress compose](screenshots/wordpress-compose.png)
+![wordpress compose](Screenshots/Screen_6.png)
 
 ---
 
@@ -362,7 +362,8 @@ docker images
 
 ### Screenshot – Node App Output
 
-![node app](screenshots/node-app.png)
+![node app](Screenshots/Screen_9.png)
+![node app](Screenshots/Screen_10.png)
 
 ---
 
@@ -376,7 +377,6 @@ This command starts **3 instances of the same service**.
 
 ### Screenshot – Scaled Containers
 
-![compose scale](screenshots/docker-compose-scale.png)
 
 ---
 
