@@ -171,7 +171,8 @@ docker compose down
 
 ### Screenshot – Compose Containers
 
-![compose ps](screenshots/docker-compose-ps.png)
+![compose ps](Screenshots/Screen_1.png)
+![compose ps](Screenshots/Screen_2.png)
 
 ---
 
@@ -216,7 +217,9 @@ http://localhost:8082
 
 ### Screenshot – WordPress Setup Page
 
-![wordpress setup](screenshots/wordpress-setup.png)
+![wordpress setup](Screenshots/Screen_3.png)
+![wordpress setup](Screenshots/Screen_4.png)
+![wordpress setup](Screenshots/Screen_5.png)
 
 ---
 
