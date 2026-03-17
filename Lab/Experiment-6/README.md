@@ -46,7 +46,7 @@ docker run -d \
 
 ### Screenshot – Running Container
 
-![docker run nginx](screenshots/docker-run-nginx.png)
+![docker run nginx](docker-compose-up.png)
 
 ---
 
@@ -131,7 +131,8 @@ docker rm lab-nginx
 
 ### Screenshot – Browser Output
 
-![nginx browser output](screenshots/nginx-browser.png)
+![nginx browser output](Screenshots/docker-html.png)
+![nginx browser output](Screenshots/docker-browser.png)
 
 ---
 
