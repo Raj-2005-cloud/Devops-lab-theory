@@ -267,6 +267,7 @@ docker compose down -v
 ### Screenshot – Compose WordPress Containers
 
 ![wordpress compose](Screenshots/Screen_6.png)
+![wordpress compose](Screenshots/Screen_7.png)
 
 ---
 
