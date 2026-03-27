@@ -46,7 +46,7 @@ apache-pod   1/1     Running   0          10s
 ```
 
 ---
-![Vagrant Init and Up](Screenshot (1020).png)
+![Vagrant Init and Up](one.png)
 ### Step 2: Inspect Pod
 
 ```bash
@@ -76,7 +76,7 @@ http://localhost:8081
 ```
 
 > ✅ You should see: → Apache default page **("It works!")**
-
+![Vagrant Init and Up](two.png)
 ---
 
 ### Step 4: Delete Pod
@@ -84,7 +84,9 @@ http://localhost:8081
 ```bash
 kubectl delete pod apache-pod
 ```
-
+![Vagrant Init and Up](three.png)
+![Vagrant Init and Up](four.png)
+![Vagrant Init and Up](five.png)
 > 💡 **Insight:** Same as before — the pod **disappears permanently**. There is **no self-healing** because a bare pod has no controller managing it.
 
 ---
