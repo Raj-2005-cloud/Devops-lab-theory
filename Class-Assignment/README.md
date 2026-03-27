@@ -46,7 +46,7 @@ apache-pod   1/1     Running   0          10s
 ```
 
 ---
-
+![Vagrant Init and Up](Screenshot (1020).png)
 ### Step 2: Inspect Pod
 
 ```bash
