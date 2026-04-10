@@ -211,8 +211,11 @@ Allows Jenkins container to use the host’s Docker daemon directly.
 ---
 ### Screenshot – Compose Containers
 
-![compose ps](Screenshots/Screen_1.png)
-![compose ps](Screenshots/Screen_2.png)
+![compose ps](Screenshot-1037.png)
+![compose ps](Screenshot-1036.png)
+![compose ps](Screenshot-1035.png)
+![compose ps](Screenshot-1034.png)
+![compose ps](Screenshot-1033.png)
 
 ---
 ## Result
