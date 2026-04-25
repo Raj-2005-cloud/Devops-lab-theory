@@ -392,6 +392,7 @@ Deploy to server  Fix issues first
 ![Docker Run](screenshot-2.png)
 ![Docker Run](screenshot-3.png)
 ![Docker Run](screenshot-4.png)
+![Docker Run](screenshot-5.png)
 ---
 
 ## 📚 Key Concepts Covered
