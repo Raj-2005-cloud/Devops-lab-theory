@@ -387,56 +387,7 @@ Deploy to server  Fix issues first
 
 ## 📸 Screenshots
 
-<img width="1440" height="900" alt="SonarQube Dashboard" src="https://github.com/user-attachments/assets/dd79c6e0-6f26-498c-bba3-3f329c5d9ba9" />
-
-<img width="1440" height="268" alt="Issues Overview" src="https://github.com/user-attachments/assets/b9e97c0c-c8bd-4427-9e73-13c435b7e72e" />
-
-<img width="1440" height="40" alt="Quality Gate Status" src="https://github.com/user-attachments/assets/97072b88-fc68-4754-8558-b1d217c12426" />
-
-<img width="1440" height="490" alt="Bug Details" src="https://github.com/user-attachments/assets/3652a288-ad92-47d6-84f7-0f4904009dce" />
-
-<img width="1440" height="900" alt="Code Smells" src="https://github.com/user-attachments/assets/a7489b93-3aa6-475f-9815-891781f6e526" />
-
-<img width="1440" height="900" alt="Vulnerabilities" src="https://github.com/user-attachments/assets/7d0ca3d3-a95f-4402-9452-9747f1d7d8e3" />
-
-<img width="1440" height="900" alt="Measures Screen" src="https://github.com/user-attachments/assets/a8b815ab-5c7d-45a0-bb35-ea5b47e9baad" />
-
-<img width="1440" height="819" alt="Technical Debt" src="https://github.com/user-attachments/assets/2052c04d-6a34-4b3c-b459-7962ff13472e" />
-
-<img width="1439" height="816" alt="Coverage Report" src="https://github.com/user-attachments/assets/a530388b-2e8e-4c48-80f6-74619e9dfad2" />
-
-<img width="1094" height="739" alt="Duplications" src="https://github.com/user-attachments/assets/0ed29301-97b4-49a4-9352-c698bfa4c91d" />
-
-<img width="1440" height="811" alt="Project Activity" src="https://github.com/user-attachments/assets/54279280-7b13-4345-8bff-d629f61705e1" />
-
-<img width="1440" height="900" alt="New Code Period" src="https://github.com/user-attachments/assets/703be70b-aa37-42c3-813f-8119d0f0346c" />
-
-<img width="1440" height="900" alt="Issue Details View" src="https://github.com/user-attachments/assets/51d195f7-6b0a-4eee-9b48-c3c6dc85dd8e" />
-
-<img width="1440" height="900" alt="Rule Description" src="https://github.com/user-attachments/assets/f5a7ab14-e27c-4684-9183-2ee0eadb2020" />
-
-<img width="1432" height="799" alt="Jenkins Pipeline" src="https://github.com/user-attachments/assets/c5d2fed9-ba3d-40a7-9309-dc9bdc0ce820" />
-
-<img width="1440" height="777" alt="Docker Containers" src="https://github.com/user-attachments/assets/779f09e1-1807-42fb-868a-ab87b50dd7d1" />
-
-<img width="1440" height="900" alt="Terminal Analysis" src="https://github.com/user-attachments/assets/66724edd-7c61-4018-9177-9429bd0f5ebe" />
-
-<img width="1440" height="900" alt="Maven Build" src="https://github.com/user-attachments/assets/1ab1f6ea-fe46-4c0f-9f1a-8f270aa29b6a" />
-
-<img width="1440" height="900" alt="Scanner Output" src="https://github.com/user-attachments/assets/92f2d9b9-1786-45ea-b1ad-b63b43a75903" />
-
-<img width="1440" height="900" alt="API Response" src="https://github.com/user-attachments/assets/e1c3d35c-992b-41db-8346-0efe6b680625" />
-
-<img width="1440" height="809" alt="Token Generation" src="https://github.com/user-attachments/assets/77d5b326-3d48-4dce-80ef-4a8a05bb3a45" />
-
-<img width="1435" height="197" alt="Quality Gate Pass" src="https://github.com/user-attachments/assets/3ec8b915-8fc5-4d1f-840d-26252ac948a3" />
-
-<img width="1440" height="212" alt="After Fix Dashboard" src="https://github.com/user-attachments/assets/17ad8a86-b4bb-418c-9731-3d7981770f80" />
-
-<img width="1427" height="793" alt="Jenkins Console Output" src="https://github.com/user-attachments/assets/95f95069-85fe-43aa-810c-9b58e355577a" />
-
-<img width="1436" height="319" alt="Successful Deployment" src="https://github.com/user-attachments/assets/2a1e59bc-03ba-4d59-b9ea-7a580dc26961" />
-
+![Docker Run](screenshot.png)
 ---
 
 ## 📚 Key Concepts Covered
