@@ -24,6 +24,7 @@ This repository contains **Lab Experiments** and **Theory Notes** for the course
 - [Experiment 5– Docker Networking, Volumes & Environment Variables Lab](./Lab/Experiment-5)
 - [Experiment 6 –  Docker Run vs Docker Compose](./Lab/Experiment-6)
 - [Experiment 7 – CI/CD Pipeline using Jenkins, GitHub and Docker Hub](./Lab/Experiment-7)
+- [Experiment 10 – SonarQube: Continuous Code Quality Inspection](./Lab/Experiment-10)
 
 
 
