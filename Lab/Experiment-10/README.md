@@ -1,6 +1,4 @@
-Here's your Lab 10 report reformatted with clear section hierarchy and improved visual structure:
 
----
 
 # Lab 10 — SonarQube: Continuous Code Quality Inspection
 
