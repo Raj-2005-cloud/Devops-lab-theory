@@ -1,8 +1,4 @@
-Here's your **Experiment 9 – Ansible Automation with Docker** reformatted for **Windows** with a unique, modern, and highly visual style:
 
----
-
-<div align="center">
   
 # 🚀 Experiment 9 – Ansible Automation with Docker
 
