@@ -856,6 +856,11 @@ docker network prune
 | Logs too large | Implement log rotation in Docker daemon config |
 
 ---
+![Docker Run](Screenshot-1.png)
+![Docker Run](Screenshot-2.png)
+![Docker Run](Screenshot-3.png)
+![Docker Run](Screenshot-4.png)
+![Docker Run](Screenshot-5.png)
 
 ## Summary
 
