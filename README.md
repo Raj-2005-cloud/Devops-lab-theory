@@ -26,6 +26,8 @@ This repository contains **Lab Experiments** and **Theory Notes** for the course
 - [Experiment 7 – CI/CD Pipeline using Jenkins, GitHub and Docker Hub](./Lab/Experiment-7)
 - [Experiment 9 – Anisible Automation](./Lab/Experiment-9)
 - [Experiment 10 – SonarQube: Continuous Code Quality Inspection](./Lab/Experiment-10)
+- [Experiment 11 ](./Lab/Experiment-10)
+- [Experiment 12 ](./Lab/Experiment-10)
 
 
 
