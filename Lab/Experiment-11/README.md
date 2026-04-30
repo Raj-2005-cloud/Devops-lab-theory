@@ -42,7 +42,7 @@ docker node ls
 
 The `docker swarm init` command enables Swarm mode and makes the current machine a **manager node**.
 
-![Swarm Init & Stack Deploy](../Screenshots/Exp11/11a.png)
+![Swarm Init & Stack Deploy](11a.png)
 
 **Observation:** Node status shows `Ready`, `Active`, and `Leader` — confirming Swarm is initialized. The stack deploy command created `wpstack_default` network, `wpstack_db`, and `wpstack_wordpress` services.
 
@@ -56,7 +56,7 @@ docker service ls
 docker ps
 ```
 
-![Service List & Container Status](../Screenshots/Exp11/11b.png)
+![Service List & Container Status](11b.png)
 
 **Observation:**
 - `wpstack_db` — replicated, 1/1 replica running (`mysql:5.7`)
@@ -67,19 +67,19 @@ docker ps
 
 ### Task 3 – Access WordPress via Browser
 
-Opened browser at `http://localhost:8080/wp-login.php`
 
-![WordPress Login Page](../Screenshots/Exp11/11c.png)
+
+![WordPress Login Page](11c.png)
 
 **Observation:** WordPress login page is accessible, confirming the stack is running correctly under Swarm management.
 
 ---
 
-### Task 4 – WordPress Admin Dashboard
+### Task 3 – WordPress Admin Dashboard
 
 Logged in to the WordPress admin panel at `http://localhost:8080/wp-admin/`
 
-![WordPress Dashboard](../Screenshots/Exp11/11d.png)
+![WordPress Dashboard](11d.png)
 
 **Observation:** WordPress 6.9.4 dashboard is fully functional. The site is titled **"Swarm Demo Site"**, confirming the WordPress + MySQL stack is working end-to-end under Swarm.
 
@@ -93,7 +93,7 @@ docker service ls
 docker ps
 ```
 
-![Scaling to 3 Replicas](../Screenshots/Exp11/11e.png)
+![Scaling to 3 Replicas](11e.png)
 
 **Observation:**
 - Scaling progressed: 1/3 → 2/3 → 3/3 tasks running
@@ -113,7 +113,7 @@ docker service ps wpstack_wordpress
 docker ps | grep wordpress
 ```
 
-![Self-Healing Demo](../Screenshots/Exp11/11f.png)
+![Self-Healing Demo](11f.png)
 
 **Observation:**
 - Container `5ed7a4e16c62` (`wpstack_wordpress.3`) was killed manually
