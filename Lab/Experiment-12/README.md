@@ -92,7 +92,7 @@ kubectl get nodes
 kubectl apply -f wordpress-deployment.yaml
 ```
 
-![Cluster Start & Deployment](../Screenshots/Exp12/12a.png)
+![Cluster Start & Deployment](12a.png)
 
 **Observation:**
 - `k3d cluster list` shows `mycluster` with load balancer enabled
@@ -112,7 +112,7 @@ kubectl get svc wordpress-service
 kubectl port-forward service/wordpress-service 8080:80
 ```
 
-![Pods, Service & Port-Forward](../Screenshots/Exp12/12b.png)
+![Pods, Service & Port-Forward](12b.png)
 
 **Observation:**
 - `kubectl get pods` shows **2 WordPress pods** running (`wordpress-7d6f6db8d8-cl77g` and `wordpress-7d6f6db8d8-vzcvn`), both `1/1 Running`
@@ -125,7 +125,7 @@ kubectl port-forward service/wordpress-service 8080:80
 
 Opened browser at `http://localhost:8080`
 
-![WordPress Setup Page](../Screenshots/Exp12/12c.png)
+![WordPress Setup Page](12c.png)
 
 **Observation:** WordPress database setup page is accessible at `localhost:8080`, confirming the deployment and service are working correctly. The page prompts for database connection details.
 
@@ -135,7 +135,7 @@ Opened browser at `http://localhost:8080`
 
 Submitted the database form with `localhost` as Database Host.
 
-![Database Connection Error](../Screenshots/Exp12/12d.png)
+![Database Connection Error](12d.png)
 
 **Observation:** WordPress throws **"Error establishing a database connection"**.
 
@@ -154,7 +154,7 @@ kubectl scale deployment wordpress --replicas=4
 kubectl get pods
 ```
 
-![Scaling to 4 Replicas](../Screenshots/Exp12/12e.png)
+![Scaling to 4 Replicas](12e.png)
 
 **Observation:**
 - `deployment.apps/wordpress scaled` confirms the command executed successfully
@@ -175,7 +175,9 @@ kubectl delete pod wordpress-7d6f6db8d8-zkzcq
 kubectl get pods
 ```
 
-![Self-Healing](../Screenshots/Exp12/12f.png)
+![Self-Healing](12f.png)
+![Self-Healing](12g.png)
+
 
 **Observation:**
 - Pod `wordpress-7d6f6db8d8-zkzcq` was manually deleted
